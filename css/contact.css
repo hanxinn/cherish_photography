@@ -62,3 +62,74 @@
     color: #666;
     line-height: 30px;
 }
+
+.contact-form {
+    background-color: #EDDBD7;
+    border-radius: 0px 100px 0px 100px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-wrap label {
+    width: 15%;
+    color: #666;
+    font-size: 16px;
+    font-family: "noto sans tc";
+}
+
+.form-wrap label::before {
+    content: "*";
+    color: #E86971;
+}
+
+.contact-form input {
+    width: 260px;
+    height: 40px;
+    color: #666;
+    font-size: 16px;
+    font-family: "noto sans tc";
+    background-color: transparent;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+.contact-form textarea {
+    width: 260px;
+    height: 80px;
+    display: block;
+    color: #666;
+    font-size: 16px;
+    font-family: "noto sans tc";
+    background-color: transparent;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+
+
+.form-btn {
+    text-align: center;
+}
+
+.form-btn button {
+    background-color: #D2988D;
+    border-radius: 0 30px 0 30px;
+    border: 0;
+    width: 360px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.form-btn button:hover {
+    background-color: #E86971;
+}
