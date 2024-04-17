@@ -14,3 +14,102 @@
     letter-spacing: 12%;
     padding: 150px 100px;
 }
+
+.photolist {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.photo {
+    width: 30%;
+    height: 450px;
+    padding: 40px;
+    background-color: #FFEEEB;
+    position: relative;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.photo:hover {
+    transform: rotate(10deg);
+}
+
+.photo-pic img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "noto serif tc";
+    font-weight: bold;
+    line-height: 43px;
+    color: #B59361;
+}
+
+.photo-pin {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+}
+
+.photo:nth-child(2) {
+    position: relative;
+    top: 80px;
+}
+
+.section-wedding {
+    background-image: url('../images/wave.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.section-wedding h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.wedding-pic {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.wedding-pic img {
+    filter: grayscale(1);
+    transition: .3s;
+}
+
+.wedding-pic img:hover {
+    filter: grayscale(0);
+}
+
+.section-wedding .wedding-btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 10px;
+}
+
+.wedding-btn a {
+    text-decoration: none;
+}
+
+.wedding-btn button {
+    background-color: #D2988D;
+    border-radius: 0 30px 0 30px;
+    border: 0;
+    width: 400px;
+    height: 60px;
+    color: white;
+}
+
+.wedding-btn button:hover {
+    background-color: #E86971;
+}
