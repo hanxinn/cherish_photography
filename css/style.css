@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h2 {
+    color: #B59361;
+    font-family: "noto serif tc";
+    font-size: 40px;
+    letter-spacing: 12%;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-family: "noto sans tc";
+    line-height: 32px;
+    color: #666;
+    letter-spacing: 4%;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+
+.logo img {
+    display: block;
+    width: 100px;
+    object-fit: cover;
+    margin: 15px auto;
+}
+
+.nav {
+    padding: 20px 0;
+    border-top: 3px solid #B59361;
+    border-bottom: 3px solid #B59361;
+}
+
+.main-menu {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.main-menu a {
+    color: #B59361;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "noto serif tc";
+    font-weight: 600;
+}
+
+.main-menu a:hover {
+    color: #E86971;
+}
+
+
+footer {
+    background-color: #E5BAB1;
+    padding-bottom: 50px;
+
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-nav li {
+    width: 40%;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.footer-nav li a:hover {
+    color: #B59361;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: white;
+}
+.fa-line {
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.fa-brands:hover {
+    color: #B59361;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+}

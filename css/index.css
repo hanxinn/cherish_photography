@@ -1,0 +1,243 @@
+.section {
+    padding: 50px 0;
+}
+
+.section-banner {
+    background-image: url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    background-color: grey;
+}
+
+.container {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-txt {
+    padding-top: 130px;
+    padding-left: 500px;
+}
+
+.banner-txt h1 {
+    font-size: 48px;
+    line-height: 96.5px;
+    letter-spacing: 12%;
+    color: white;
+    text-shadow: 4px 4px 4px #666;
+    font-family: "noto serif tc";
+}
+
+.banner-txt span {
+    font-size: 64px;
+}
+
+.brand-title, .services-title, .news-title, .portfolio-title {
+    font-family: "petemoss";
+    color: #B59361;
+    font-size: 120px;
+    letter-spacing: 12%;
+}
+
+.brand-story {
+    font-family: "noto sans tc";
+    color: #B59361;
+    font-size: 20px;
+    letter-spacing: 18%;
+    line-height: 32px;
+    padding-left: 30px;
+}
+
+.brand-pic img {
+    display: block;
+}
+
+.brand-txt {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.brand-txt h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.section-brand {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sevices-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.services-title {
+    margin-left: 50px;
+}
+
+.services-pic img {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.services-txt img {
+    width: 580px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.services-txt p {
+    width: 300px;
+    position: absolute;
+    left: 62%;
+    top: 45%;
+    font-family: "noto sans tc";
+    color: #666;
+    font-size: 20px;
+
+}
+
+.news-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news-cardlist {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card {
+    width: 30%;
+    border-radius: 0 100px 0 100px;
+    background-color: #FFEEEB;
+}
+
+.card-pic {
+    overflow: hidden;
+    border-radius: 0px 100px 0px 0px;
+}
+
+
+.card-pic img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 100px 0  0;
+    transition: .3s;
+}
+
+.card-pic img:hover {
+    scale: 1.2;
+}
+
+.card-txt {
+    padding: 10px 20px;
+    position: relative;
+}
+
+.card-title {
+    color: #666;
+    font-family: "noto serif tc";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 12%;
+    line-height: 30px;
+}
+
+.card-txt button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #D2988D;
+    border-radius: 0 30px 0 30px;
+    border: 0;
+    width: 150px;
+    height: 60px;
+}
+
+.card-txt button a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-txt button:hover {
+    background-color: #E86971;
+}
+
+.section-portfolio {
+    background-image: url('/images/Slice-wave.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 200px;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.photolist {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.photo {
+    width: 30%;
+    height: 450px;
+    padding: 40px;
+    background-color: #FFEEEB;
+    position: relative;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.photo:hover {
+    transform: rotate(10deg);
+}
+
+.photo-pic img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "noto serif tc";
+    font-weight: bold;
+    line-height: 43px;
+    color: #B59361;
+}
+
+.photo-pin {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+}
+
+.photo:nth-child(2) {
+    position: relative;
+    top: 80px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+

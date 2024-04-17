@@ -1,0 +1,125 @@
+
+.section-banner {
+    background-image: url("/images/bgabout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.banner-title {
+    font-family: "petemoss";
+    color: #B59361;
+    font-size: 120px;
+    letter-spacing: 12%;
+    padding: 150px 100px;
+}
+
+.brand-story {
+    font-family: "noto sans tc";
+    color: #B59361;
+    font-size: 20px;
+    letter-spacing: 18%;
+    line-height: 32px;
+}
+
+.brand-pic img {
+    display: block;
+}
+
+.brand-txt {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.brand-txt h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.section-brand {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-services h2 {
+    text-align: center;
+}
+
+.sevices-content {
+    position: relative;
+}
+
+.services-title {
+    margin-left: 30px;
+}
+
+.services-pic img {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.services-txt img {
+    width: 580px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.services-txt p {
+    width: 300px;
+    position: absolute;
+    left: 62%;
+    top: 45%;
+    font-family: "noto sans tc";
+    color: #666;
+    font-size: 20px;
+
+}
+
+.section-members h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.members {
+    text-align: center;
+    width: 30%;
+}
+
+.members-pic img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.members-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.members-txt {
+    padding: 20px;
+}
+
+.members-txt p span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #B59361;
+    font-family: "noto serif tc";
+}
+
+.members-txt p {
+    color: #B59361;
+}
+
+.section-members {
+    background-image: url('/images/Slice-wave.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 200px;
+}
