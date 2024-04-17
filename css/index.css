@@ -3,12 +3,11 @@
 }
 
 .section-banner {
-    background-image: url("images/bg1.jpg");
+    background-image: url("/images/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 70vh;
-    background-color: grey;
 }
 
 .container {
@@ -177,7 +176,7 @@
 }
 
 .section-portfolio {
-    background-image: url('images/Slice-wave.svg');
+    background-image: url('/images/Slice-wave.svg');
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-bottom: 200px;
