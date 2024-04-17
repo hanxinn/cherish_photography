@@ -35,6 +35,8 @@
 
 .location-info {
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .location-infolist {
@@ -50,7 +52,7 @@
 
 .fa-solid {
     color: #666;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .location-txt span {
@@ -58,4 +60,5 @@
     font-size: 20px;
     font-weight: bold;
     color: #666;
+    line-height: 30px;
 }
