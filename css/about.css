@@ -1,6 +1,6 @@
 
 .section-banner {
-    background-image: url("images/bgabout.jpg");
+    background-image: url("../images/bgabout.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -118,7 +118,7 @@
 }
 
 .section-members {
-    background-image: url('images/wave.svg');
+    background-image: url('../images/wave.svg');
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-bottom: 200px;
