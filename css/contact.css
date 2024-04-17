@@ -14,3 +14,48 @@
     letter-spacing: 12%;
     padding: 150px 100px;
 }
+
+.section-contact {
+    background-image: url('../images/wave.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    padding-bottom: 200px;
+}
+.section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.location-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.location-info {
+    display: flex;
+}
+
+.location-infolist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.location-txt {
+    padding: 0 15px;
+}
+
+.fa-solid {
+    color: #666;
+    font-size: 20px;
+}
+
+.location-txt span {
+    font-family: "noto serif tc";
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+}
