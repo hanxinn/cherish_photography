@@ -1,0 +1,122 @@
+.section-banner {
+    background-image: url("../images/bgnews.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.banner-title {
+    font-family: "petemoss";
+    color: #B59361;
+    font-size: 120px;
+    letter-spacing: 12%;
+    padding: 150px 100px;
+}
+
+.news-cardlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.card-pic {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 0px 0px 0px 100px;
+
+}
+
+.card-pic img {
+    width: 100%;
+    object-fit: cover;
+    transition: .3s;
+    display: block;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.card-pic img:hover {
+    scale: 1.2;
+}
+
+.card {
+    width: 70%;
+    display: flex;
+    background-color: #FFEEEB;
+    border-radius: 0px 100px 0px 100px;
+    
+}
+.card-txt {
+    padding: 20px;
+    width: 50%;
+    position: relative;
+}
+
+.card-title {
+    color: #666;
+    font-family: "noto serif tc";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 12%;
+    line-height: 30px;
+}
+
+.card-txt button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #D2988D;
+    border-radius: 0 30px 0 30px;
+    border: 0;
+    width: 150px;
+    height: 60px;
+}
+
+.card-txt button a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-txt button:hover {
+    background-color: #E86971;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: "noto sans tc";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pages div {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #E5BAB1;
+}
+
+.pages div:hover {
+    background-color: #E86971;
+}
+
+.section-pages {
+    background-image: url('../images/wave.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    padding-bottom: 200px;
+}
