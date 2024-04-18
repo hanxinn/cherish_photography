@@ -31,6 +31,11 @@ p {
     width: 100px;
     object-fit: cover;
     margin: 15px auto;
+    transition: .3s;
+}
+
+.logo img:hover {
+    scale: 1.1;
 }
 
 .nav {
