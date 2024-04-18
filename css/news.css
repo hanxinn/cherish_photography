@@ -124,13 +124,6 @@
     align-items: center;
 }
 
-.section-pages {
-    background-image: url('../images/wave.svg');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    width: 100%;
-    padding-bottom: 200px;
-}
 
 .card-txt button {
     color: white;

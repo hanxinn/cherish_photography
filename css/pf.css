@@ -66,13 +66,7 @@
     top: 80px;
 }
 
-.section-wedding {
-    background-image: url('../images/wave.svg');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    width: 100%;
-    padding-bottom: 200px;
-}
+
 
 .section-wedding h2 {
     text-align: center;
