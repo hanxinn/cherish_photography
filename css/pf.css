@@ -1,3 +1,7 @@
+* a {
+    text-decoration: none;
+}
+
 .section-banner {
     background-image: url("../images/bgpf.jpg");
     background-size: cover;
