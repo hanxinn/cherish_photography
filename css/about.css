@@ -157,8 +157,8 @@
 
 .services-pic-txt {
     position: absolute;
-    bottom: 0px;
-    left: 15%;
+    bottom: -10px;
+    left: 5%;
     font-family: "russo one";
     font-size: 40px;
     letter-spacing: 12%;

@@ -125,3 +125,7 @@
 .card-txt button {
     color: white;
 }
+
+.pages-num:nth-child(2) {
+    background-color: #E86971;
+}
