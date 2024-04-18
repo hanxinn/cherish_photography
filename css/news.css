@@ -55,6 +55,10 @@
     position: relative;
 }
 
+.card-txt p {
+    font-family: "noto sans tc";
+}
+
 .card-title {
     color: #666;
     font-family: "noto serif tc";
@@ -134,4 +138,8 @@
 
 .pages-num:nth-child(2) {
     background-color: #E86971;
+}
+
+.date {
+    font-family: "noto sans tc";
 }

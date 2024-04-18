@@ -94,27 +94,3 @@
 .wedding-pic img:hover {
     filter: grayscale(0);
 }
-
-.section-wedding .wedding-btn {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0 10px;
-}
-
-.wedding-btn a {
-    text-decoration: none;
-}
-
-.wedding-btn button {
-    background-color: #D2988D;
-    border-radius: 0 30px 0 30px;
-    border: 0;
-    width: 400px;
-    height: 60px;
-    color: white;
-    font-size: 16px;
-}
-
-.wedding-btn button:hover {
-    background-color: #E86971;
-}

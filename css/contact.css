@@ -87,10 +87,6 @@
     font-family: "noto sans tc";
 }
 
-.form-wrap label::before {
-    content: "*";
-    color: #E86971;
-}
 
 .contact-form input {
     width: 260px;
@@ -100,7 +96,8 @@
     font-family: "noto sans tc";
     background-color: transparent;
     border: 1px solid #666;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
 }
 .contact-form textarea {
     width: 260px;
@@ -111,7 +108,8 @@
     font-family: "noto sans tc";
     background-color: transparent;
     border: 1px solid #666;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
 }
 
 
