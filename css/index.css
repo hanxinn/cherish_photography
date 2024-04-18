@@ -282,3 +282,7 @@
 .services-pic-wrap:hover .services-pic-txt {
     color: #E86971;
 }
+
+.card-txt a button {
+    color: white;
+}
