@@ -51,19 +51,14 @@
 }
 
 .sevices-content {
-    position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 .services-title {
     margin-left: 30px;
-}
-
-.services-pic img {
-    width: 600px;
-    margin-left: 60px;
 }
 
 .services-txt img {
@@ -153,4 +148,39 @@
     bottom: -20px;
     left: 28%;
     margin-left: -10px;
+}
+
+
+.services-pic-wrap {
+    position: relative;
+}
+
+.services-pic-txt {
+    position: absolute;
+    bottom: 0px;
+    left: 15%;
+    font-family: "russo one";
+    font-size: 40px;
+    letter-spacing: 12%;
+    color: #B59361;
+}
+
+.services-pic-wrap:nth-child(1) {
+    position: relative;
+    left: -80px;
+    top: 40px;
+}
+
+.services-pic-wrap:nth-child(2) {
+    position: relative;
+    left: 260px;
+}
+.services-pic-wrap:nth-child(3) {
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
+.services-pic-wrap:hover .services-pic-txt {
+    color: #E86971;
 }
