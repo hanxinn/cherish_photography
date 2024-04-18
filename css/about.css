@@ -165,6 +165,12 @@
     color: #B59361;
 }
 
+.services-pic-photo {
+    position: absolute;
+    left: -20%;
+}
+
+
 .services-pic-wrap:nth-child(1) {
     position: relative;
     left: -60px;
