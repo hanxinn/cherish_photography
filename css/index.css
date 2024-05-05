@@ -98,7 +98,7 @@
 
 .services-pic-wrap:nth-child(2) {
     position: relative;
-    left: 300px;
+    left: 220px;
     top: 60px;
 }
 .services-pic-wrap:nth-child(3) {
@@ -130,7 +130,7 @@
     .services-pic-wrap:nth-child(2) {
         position: relative;
         top: 15%;
-        left: 80%;
+        left: 90%;
     }
     .services-pic-wrap:nth-child(3) {
         position: relative;
