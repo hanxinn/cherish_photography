@@ -1,14 +1,27 @@
-* {
+body {
     box-sizing: border-box;
+    font-family: "noto sans tc";
 }
 
 
 h2 {
     color: #B59361;
     font-family: "noto serif tc";
-    font-size: 40px;
+    font-size: 32px;
     letter-spacing: 12%;
     font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #B59361;
+    font-family: "noto serif tc";
+    font-size: 28px;
+    letter-spacing: 12%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
 }
 
 p {
@@ -25,42 +38,86 @@ p {
     box-sizing: border-box;
 }
 
-
-.logo img {
-    display: block;
-    width: 100px;
-    object-fit: cover;
-    margin: 15px auto;
-    transition: .3s;
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
 }
 
-.logo img:hover {
-    scale: 1.1;
+@media screen and (max-width: 767.9px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .fa-bars {
+        color: #B59361;
+        font-size: 80px;
+        margin: 15px;
+    }
+    .logo img {
+        display: block;
+        width: 100px;
+        object-fit: cover;
+        margin: 15px;
+        transition: .3s;
+    }
+    .main-menu {
+        display: none;
+    }
+    
 }
 
-.nav {
-    padding: 20px 0;
-    border-top: 3px solid #B59361;
-    border-bottom: 3px solid #B59361;
+
+@media screen and  (min-width: 768px) {
+    .nav {
+        padding: 20px 0;
+        border-top: 3px solid #B59361;
+        border-bottom: 3px solid #B59361;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .logo img {
+        display: block;
+        width: 100px;
+        object-fit: cover;
+        margin: 15px auto;
+        transition: .3s;
+    }
+
+    .logo img:hover {
+        scale: 1.1;
+    }
+
+    .main-menu {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+    }
+    
+    .main-menu a {
+        color: #B59361;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "noto serif tc";
+        font-weight: 600;
+    }
+    
+    .main-menu a:hover {
+        color: #E86971;
+    }
+    
 }
 
-.main-menu {
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-}
 
-.main-menu a {
-    color: #B59361;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "noto serif tc";
-    font-weight: 600;
-}
 
-.main-menu a:hover {
-    color: #E86971;
-}
+
+
 
 
 footer {

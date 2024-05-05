@@ -6,23 +6,24 @@
     background-image: url("../images/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 70vh;
 }
 
 .container {
-    height: 100%;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .banner-txt {
-    padding-top: 130px;
-    padding-left: 500px;
+    padding-top: 10%;
+    padding-left: 40%;
 }
 
 .banner-txt h1 {
-    font-size: 48px;
+    font-size: clamp(16px, 3.75vw, 48px );
     line-height: 96.5px;
     letter-spacing: 12%;
     color: white;
@@ -31,51 +32,77 @@
 }
 
 .banner-txt span {
-    font-size: 64px;
+    font-size: clamp(20px, 5vw, 64px );
 }
 
-.brand-title, .services-title, .news-title, .portfolio-title {
-    font-family: "petemoss";
-    color: #B59361;
-    font-size: 120px;
-    letter-spacing: 12%;
-}
 
 .brand-story {
     font-family: "noto sans tc";
     color: #B59361;
-    font-size: 20px;
+    font-size: clamp(16px,1.5625vw,20px);
     letter-spacing: 18%;
     line-height: 32px;
-    padding-left: 30px;
 }
 
 .brand-pic img {
     display: block;
 }
 
-.brand-txt {
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-.brand-txt h2 {
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
-.section-brand {
+.brand-txt, .brand-pic {
     display: flex;
     justify-content: center;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-.sevices-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+@media screen and  (max-width: 767.9px) {
+    .card {
+        width: 70%;
+    }
+    .photo {
+        width: 70%;
+        padding: 40px;
+        height: 400px;
+    }   
+}
+
+
+@media screen and  (min-width: 768px) {
+    .card {
+        width: 45%;
+    }
+    .photo {
+        width: 45%;
+        padding: 40px;
+        height: 400px;
+    }
+        
+}
+
+
+@media screen and  (min-width: 1024px) {
+    .card {
+        width: 30%;
+    }
+    .photo {
+        width: 30%;
+        padding: 40px;
+        height: 400px;
+    }   
+
+    .photo:nth-child(2) {
+        position: relative;
+        top: 80px;
+    }
+    }
+
+
+.section h2 {
+    text-align: center;
+}
+
+
+.services-pic {
     position: relative;
 }
 
@@ -83,22 +110,56 @@
     margin-left: 50px;
 }
 
-
-
-.news-title {
-    text-align: center;
-    margin-bottom: 50px;
+.services-pic-wrap {
+    position: relative;
 }
+
+.services-pic-txt {
+    position: absolute;
+    bottom: 0%;
+    left: 7%;
+    font-family: "russo one";
+    font-size: 28px;
+    letter-spacing: 12%;
+    color: #B59361;
+}
+
+.services-pic-photo {
+    position: absolute;
+    left: 5%;
+}
+
+.services-pic-wrap:nth-child(1) {
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
+
+.services-pic-wrap:nth-child(2) {
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+.services-pic-wrap:nth-child(3) {
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+
+.services-pic-wrap:hover .services-pic-txt {
+    color: #E86971;
+}
+
 
 .news-cardlist {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 
 }
 
 .card {
-    width: 30%;
     border-radius: 0 100px 0 100px;
     background-color: #FFEEEB;
 }
@@ -111,7 +172,6 @@
 
 .card-pic img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 0 100px 0  0;
     transition: .3s;
@@ -165,14 +225,13 @@
 .photolist {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 150px;
 }
 
 .photo {
-    width: 30%;
-    height: 450px;
-    padding: 40px;
+    
     background-color: #FFEEEB;
     position: relative;
     box-sizing: border-box;
@@ -204,15 +263,19 @@
     left: 50%;
 }
 
-.photo:nth-child(2) {
-    position: relative;
-    top: 80px;
-}
+
 
 .slider {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.bubble-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
 }
 
 .bubble {
@@ -223,8 +286,8 @@
     font-size: 20px;
     line-height: 32px;
     text-align: left;
-    width: 447px;
-    height: 210px;
+    width: 300px;
+    height: 260px;
     border-radius: 68px;
     padding: 40px;
 }
@@ -242,45 +305,7 @@
     margin-left: -10px;
 }
 
-.services-pic-wrap {
-    position: relative;
-}
 
-.services-pic-txt {
-    position: absolute;
-    bottom: -9%;
-    left: 5%;
-    font-family: "russo one";
-    font-size: 40px;
-    letter-spacing: 12%;
-    color: #B59361;
-}
-
-.services-pic-photo {
-    position: absolute;
-    left: -20%;
-}
-
-.services-pic-wrap:nth-child(1) {
-    position: relative;
-    left: -60px;
-    top: 40px;
-}
-
-.services-pic-wrap:nth-child(2) {
-    position: relative;
-    left: 220px;
-    top: 60px;
-}
-.services-pic-wrap:nth-child(3) {
-    position: relative;
-    top: 30px;
-    left: 20px;
-}
-
-.services-pic-wrap:hover .services-pic-txt {
-    color: #E86971;
-}
 
 .card-txt a button {
     color: white;
