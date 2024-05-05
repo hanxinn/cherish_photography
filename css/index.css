@@ -98,13 +98,13 @@
 
 .services-pic-wrap:nth-child(2) {
     position: relative;
-    left: 220px;
+    left: 200px;
     top: 60px;
 }
 .services-pic-wrap:nth-child(3) {
     position: relative;
     top: 40px;
-    left: 90px;
+    left: 50px;
 }
 
 .services-pic-wrap:hover .services-pic-txt {
@@ -130,7 +130,7 @@
     .services-pic-wrap:nth-child(2) {
         position: relative;
         top: 15%;
-        left: 90%;
+        left: 80%;
     }
     .services-pic-wrap:nth-child(3) {
         position: relative;
