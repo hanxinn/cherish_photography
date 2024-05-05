@@ -48,6 +48,7 @@
 
 .brand-pic img {
     display: block;
+    width: 100%;
 }
 
 .brand-txt, .brand-pic {
