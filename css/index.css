@@ -123,19 +123,19 @@
 
     .services-pic-wrap:nth-child(1) {
         position: relative;
-        left: 20px;
-        top: 40px;
+        top: 5%;
+        left: 10%;
     }
     
     .services-pic-wrap:nth-child(2) {
         position: relative;
-        left: 200px;
-        top: 60px;
+        top: 10%;
+        left: 40%;
     }
     .services-pic-wrap:nth-child(3) {
         position: relative;
-        top: 40px;
-        left: 30px;
+        top: 15%;
+        left: 5%;
     }
 }
 
