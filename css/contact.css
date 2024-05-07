@@ -114,7 +114,6 @@
     background-color: #FFA1A7;
     border-radius: 0 30px 0 30px;
     border: 0;
-    width: 70%;
     height: 60px;
     color: white;
     font-size: 16px;
@@ -139,10 +138,17 @@
     .contact-form textarea {
         width: 30%;
     }
+    .form-btn button {
+        width: 55%;
+    }
     
 }
 
 @media screen and  (min-width: 956px) {
+    .form-btn button {
+        width: 70%;
+    
+    }
     .contact-form {
         width: 50%;
     }
