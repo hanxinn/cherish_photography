@@ -2,6 +2,7 @@
     background-image: url("../images/bgnews.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     margin: 0 auto;
     height: 400px;
