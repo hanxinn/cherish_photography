@@ -192,13 +192,10 @@ footer {
 }
 
 .fa-brands {
-    font-size: 40px;
+    font-size: clamp(10px, 3.125vw ,40px);
     color: white;
 }
-.fa-line {
-    font-size: 36px;
-    vertical-align: middle;
-}
+
 
 .fa-brands:hover {
     color: #B59361;
