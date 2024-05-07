@@ -44,7 +44,7 @@
     padding: 0 10px;
 }
 
-.fa-solid {
+.fa-clock, .fa-phone, .fa-envelope, .fa-location-dot {
     color: #666;
     font-size: 20px;
 }
