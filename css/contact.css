@@ -11,7 +11,7 @@
 .banner-title {
     font-family: "russo one";
     color: #B59361;
-    font-size: clamp(16px, 7.8125vw, 100px);
+    font-size: clamp(12px, 7.8125vw, 100px);
     letter-spacing: 12%;
     padding: 150px 100px;
 }

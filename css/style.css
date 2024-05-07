@@ -67,6 +67,33 @@ p {
     .main-menu {
         display: none;
     }
+   
+
+    .mb-menu {
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+        left:0; 
+        right:0;
+        background-color: #fff;
+    }
+
+    .mb-menu li {
+        padding: 20px;
+        border-bottom: 1px solid #B59361;
+    }
+    
+     .mb-menu {
+        display: none;
+    }
+
+    .mb-menu a {
+        color: #B59361;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "noto serif tc";
+        font-weight: 600;
+    }
     
 }
 
@@ -92,6 +119,10 @@ p {
 
     .logo img:hover {
         scale: 1.1;
+    }
+
+    .mb-menu {
+        display: none;
     }
 
     .main-menu {
