@@ -1,3 +1,6 @@
+.section {
+    padding: 50px 0;
+}
 
 .section-banner {
     background-image: url("../images/bgabout.jpg");
@@ -9,75 +12,111 @@
 }
 
 .banner-title {
-    font-family: "petemoss";
+    font-family: "russo one";
     color: #B59361;
-    font-size: 120px;
+    font-size: clamp(16px, 7.8125vw, 100px);
     letter-spacing: 12%;
     padding: 150px 100px;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-txt {
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+.banner-txt h1 {
+    font-size: clamp(16px, 3.75vw, 48px );
+    line-height: 96.5px;
+    letter-spacing: 12%;
+    color: white;
+    text-shadow: 4px 4px 4px #666;
+    font-family: "noto serif tc";
+}
+
+.banner-txt span {
+    font-size: clamp(20px, 5vw, 64px );
+}
+
+
 .brand-story {
     font-family: "noto sans tc";
     color: #B59361;
-    font-size: 20px;
+    font-size: clamp(16px,1.5625vw,20px);
     letter-spacing: 18%;
     line-height: 32px;
 }
 
 .brand-pic img {
     display: block;
+    width: 100%;
 }
 
-.brand-txt {
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-.brand-txt h2 {
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
-.section-brand {
+.brand-txt, .brand-pic {
     display: flex;
     justify-content: center;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-.section-services h2 {
+.section h2 {
     text-align: center;
 }
 
-.sevices-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+.services-pic {
     position: relative;
 }
 
 .services-title {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
-.services-txt img {
-    width: 580px;
+.services-pic-wrap {
+    position: relative;
+}
+
+.services-pic-txt {
     position: absolute;
-    top: 20%;
-    left: 50%;
+    bottom: 0%;
+    left: 7%;
+    font-family: "russo one";
+    font-size: 28px;
+    letter-spacing: 12%;
+    color: #B59361;
 }
 
-.services-txt p {
-    width: 300px;
+.services-pic-photo {
     position: absolute;
-    left: 62%;
-    top: 45%;
-    font-family: "noto sans tc";
-    color: #666;
-    font-size: 20px;
-
+    left: 5%;
 }
+
+.services-pic-wrap:nth-child(1) {
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
+.services-pic-wrap:nth-child(2) {
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+.services-pic-wrap:nth-child(3) {
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.services-pic-wrap:hover .services-pic-txt {
+    color: #E86971;
+}
+
 
 .section-members h2 {
     text-align: center;
@@ -86,7 +125,6 @@
 
 .members {
     text-align: center;
-    width: 30%;
 }
 
 .members-pic img {
@@ -97,6 +135,7 @@
 .members-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -115,73 +154,118 @@
     color: #B59361;
 }
 
+@media screen and  (max-width: 527.9px) {
+    .card {
+        width: 80%;
+    }
+    .photo {
+        width: 80%;
+        padding: 40px;
+    }   
 
-.bubble {
-    position: relative;
-    background: #ffeeeb;
-    color: #666666;
-    font-family: Noto Sans TC;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: left;
-    width: 447px;
-    height: 210px;
-    border-radius: 68px;
-    padding: 40px;
-}
-.bubble:after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 0;
-    z-index: 1;
-    border-style: solid;
-    border-width: 20px 20px 0 0;
-    border-color: #ffeeeb transparent transparent transparent;
-    bottom: -20px;
-    left: 28%;
-    margin-left: -10px;
-}
-
-
-.services-pic-wrap {
-    position: relative;
-}
-
-.services-pic-txt {
-    position: absolute;
-    bottom: -9%;
-    left: 5%;
-    font-family: "russo one";
-    font-size: 40px;
-    letter-spacing: 12%;
-    color: #B59361;
-}
-
-.services-pic-photo {
-    position: absolute;
-    left: -20%;
+    .services-pic-wrap:nth-child(1) {
+        position: relative;
+        top: 5%;
+        left: 10%;
+    }
+    
+    .services-pic-wrap:nth-child(2) {
+        position: relative;
+        top: 15%;
+        left: 60%;
+    }
+    .services-pic-wrap:nth-child(3) {
+        position: relative;
+        top: 15%;
+        left: 15%;
+    }
+    .members {
+        width: 60%;
+    } 
 }
 
 
-.services-pic-wrap:nth-child(1) {
-    position: relative;
-    left: -60px;
-    top: 40px;
-}
-
-.services-pic-wrap:nth-child(2) {
-    position: relative;
-    left: 220px;
-    top: 60px;
-}
-.services-pic-wrap:nth-child(3) {
-    position: relative;
-    top: 30px;
-    left: 20px;
-}
 
 
-.services-pic-wrap:hover .services-pic-txt {
-    color: #E86971;
+@media screen and (min-width: 528px) {
+    .card {
+        width: 80%;
+    }
+    .photo {
+        width: 80%;
+        padding: 40px;
+    }   
+    .members {
+        width: 60%;
+    }  
+
 }
+
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 45%;
+    }
+    .photo {
+        width: 45%;
+        padding: 40px;
+        height: 400px;
+    }
+    .members {
+        width: 60%;
+    }  
+}
+
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 30%;
+    }
+    .photo {
+        width: 30%;
+        padding: 40px;
+        height: 400px;
+    }   
+
+    .photo:nth-child(2) {
+        position: relative;
+        top: 80px;
+    }
+    .members {
+        width: 25%;
+    } 
+}
+
+    .bubble-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+    
+    .bubble {
+        position: relative;
+        background: #ffeeeb;
+        color: #666666;
+        font-family: Noto Sans TC;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: left;
+        width: 300px;
+        height: 260px;
+        border-radius: 68px;
+        padding: 40px;
+    }
+    .bubble:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 0;
+        border-style: solid;
+        border-width: 20px 20px 0 0;
+        border-color: #ffeeeb transparent transparent transparent;
+        bottom: -20px;
+        left: 28%;
+        margin-left: -10px;
+    }
