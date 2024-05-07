@@ -23,13 +23,12 @@
 .photolist {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 50px;
 }
 
 .photo {
-    width: 30%;
-    height: 450px;
     padding: 40px;
     background-color: #FFEEEB;
     position: relative;
@@ -62,10 +61,6 @@
     left: 50%;
 }
 
-.photo:nth-child(2) {
-    position: relative;
-    top: 80px;
-}
 
 
 
@@ -88,4 +83,52 @@
 
 .wedding-pic img:hover {
     filter: grayscale(0);
+}
+
+
+@media screen and  (max-width: 527.9px) {
+    .photo {
+        width: 80%;
+        padding: 40px;
+    }  
+
+}
+
+
+
+
+@media screen and  (min-width: 528px) {
+ 
+    .photo {
+        width: 80%;
+        padding: 40px;
+    } 
+   
+
+}
+
+
+@media screen and  (min-width: 768px) {
+
+    .photo {
+        width: 45%;
+        padding: 40px;
+        height: 400px;
+    }
+   
+}
+
+
+@media screen and  (min-width: 1024px) {
+ 
+    .photo {
+        width: 30%;
+        padding: 40px;
+        height: 400px;
+    }   
+
+    .photo:nth-child(2) {
+        position: relative;
+        top: 80px;
+    }
 }
