@@ -126,7 +126,7 @@
 
 @media screen and  (max-width: 955.9px) {
     .contact-form {
-        width: 70%;
+        width: 90%;
     }
     .location-wrap {
         flex-direction: column;
