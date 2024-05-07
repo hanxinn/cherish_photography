@@ -9,13 +9,12 @@
 }
 
 .banner-title {
-    font-family: "petemoss";
+    font-family: "russo one";
     color: #B59361;
-    font-size: 120px;
+    font-size: clamp(16px, 7.8125vw, 100px);
     letter-spacing: 12%;
     padding: 150px 100px;
 }
-
 
 .section h2 {
     text-align: center;
@@ -76,7 +75,7 @@
 
 }
 .form-wrap label {
-    width: 15%;
+    width: 20%;
     color: #666;
     font-size: 16px;
     font-family: "noto sans tc";
@@ -125,4 +124,15 @@
 
 .form-btn button:hover {
     background-color: #E86971;
+}
+
+@media screen and  (max-width: 955px) {
+    .contact-form {
+        width: 80%;
+    }
+    .location-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
