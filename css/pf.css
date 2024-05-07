@@ -132,3 +132,35 @@
         top: 80px;
     }
 }
+
+.owl-carousel .item  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.pic-wrap1 .item img {
+    object-position: top center;
+}
+
+.pic-wrap1 .item {
+    height: 18rem;
+  }
+
+.pic-wrap1 {
+    margin-bottom: 8px;
+}
+
+.pic-wrap2 .item {
+    height: 30rem;
+  }
+
+  .pic-wrap2 {
+    margin-bottom: 50px;
+}
+
+.pic-wrap2 .item img {
+    object-position:center;
+}
