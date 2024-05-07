@@ -126,13 +126,20 @@
     background-color: #E86971;
 }
 
-@media screen and  (max-width: 955px) {
+@media screen and  (max-width: 955.9px) {
     .contact-form {
-        width: 80%;
+        width: 70%;
     }
     .location-wrap {
         flex-direction: column;
         align-items: center;
+    }
+    
+}
+
+@media screen and  (min-width: 956px) {
+    .contact-form {
+        width: 50%;
     }
     
 }
