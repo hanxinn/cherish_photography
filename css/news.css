@@ -8,9 +8,9 @@
 }
 
 .banner-title {
-    font-family: "petemoss";
+    font-family: "russo one";
     color: #B59361;
-    font-size: 120px;
+    font-size: clamp(16px, 7.8125vw, 100px);
     letter-spacing: 12%;
     padding: 150px 100px;
 }
@@ -23,37 +23,78 @@
 
 }
 
-.card-pic {
-    width: 50%;
-    overflow: hidden;
-    border-radius: 0px 0px 0px 100px;
 
+@media screen and (max-width: 1132.9px) {
+    .card {
+    width: 70%;
+    }
+
+    .card {
+    display: flex;
+    flex-direction: column;    
+    background-color: #FFEEEB;
+    border-radius: 0px 100px 0px 100px;
+    
+    }
+    .card-pic {
+    overflow: hidden;
+    border-radius: 0px 100px 0px 0px;
+
+    }
+    .card-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .3s;
+        display: block;
+        border-radius: 0px 100px 0px 0px;
+    }
+    .card-txt {
+        padding: 30px;
+        position: relative;
+    }
 }
 
-.card-pic img {
-    width: 100%;
-    object-fit: cover;
-    transition: .3s;
-    display: block;
-    border-radius: 0px 0px 0px 100px;
+@media screen and (min-width: 1133px) {
+    .card {
+        width: 70%;
+    }
+  
+    .card-pic {
+        width: 50%;
+        overflow: hidden;
+        border-radius: 0px 0px 0px 100px;
+
+    }
+
+    .card-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .3s;
+        display: block;
+        border-radius: 0px 0px 0px 100px;
+    }
+
+    .card-txt {
+        padding: 30px;
+        width: 50%;
+        position: relative;
+    }
+
+    .card {
+        display: flex;
+        background-color: #FFEEEB;
+        border-radius: 0px 100px 0px 100px;
+        
+    }
 }
 
 .card-pic img:hover {
     scale: 1.2;
 }
 
-.card {
-    width: 70%;
-    display: flex;
-    background-color: #FFEEEB;
-    border-radius: 0px 100px 0px 100px;
-    
-}
-.card-txt {
-    padding: 20px;
-    width: 50%;
-    position: relative;
-}
+
 
 .card-txt p {
     font-family: "noto sans tc";
