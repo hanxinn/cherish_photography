@@ -176,9 +176,9 @@ footer {
 
 .footer-nav li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: clamp( 10px,1.5625vw,20px);
     color: white;
-    line-height: 40px;
+    line-height: 1.6;
     font-weight: bold;
 }
 
@@ -207,4 +207,6 @@ footer {
 .copyright p {
     color: white;
     text-align: center;
+    font-size: clamp( 10px,1.25vw,16px);
+    line-height: 1.6;
 }
