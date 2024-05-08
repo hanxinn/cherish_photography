@@ -73,6 +73,7 @@
 
 .services-pic-wrap {
     position: relative;
+    cursor: pointer;
 }
 
 .services-pic-txt {
